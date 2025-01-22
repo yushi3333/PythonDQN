@@ -1,0 +1,12 @@
+py -3.7 -m venv carla_env 
+
+carla_env\Scripts\activate.bat
+
+carla_env\Scripts\pip install torch
+carla_env\Scripts\pip install torchvision
+carla_env\Scripts\pip install pygame
+carla_env\Scripts\pip install opencv-python
+carla_env\Scripts\pip install matplotlib
+
+commands:
+ carla_env\Scripts\python main.py
